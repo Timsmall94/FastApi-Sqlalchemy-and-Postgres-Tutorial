@@ -117,4 +117,5 @@ let payLoad = {
     ]
 }
 
-console.log(LannisterPay(payLoad))
+// console.log(LannisterPay(payLoad))
+console.log(JSON.stringify(LannisterPay(payLoad)))
