@@ -60,7 +60,7 @@ function LannisterPay(obj){
         console.log(`TOTAL RATIO = ${ratioAddStr} = ${totalRatio}`)
         console.log(`Opening Ratio Balance = ${balBeforeRatio}\n`)
         while(ratioArr.length !== 0){
-			let oldAmount = obj.Amount
+	    let oldAmount = obj.Amount
             currentEntity = ratioArr.shift();
             splitAmount = currentEntity.SplitValue * balBeforeRatio / totalRatio;
             obj.Amount -= splitAmount
